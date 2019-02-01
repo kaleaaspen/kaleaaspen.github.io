@@ -1,95 +1,39 @@
-@charset "UTF-8";
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-/* CSS Document */
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-/*
-Necessary CSS attributes for this project
+<title>JOUR 242 - Intro to Web Design</title>
+<link href="v.css" rel="stylesheet" type="text/css" />
 
-background-image
-background-repeat
-background-color
-background-position
-font-family
-font-size
-font-weight
-text-align
-margin
-padding
-text-decoration
-color
-width
-height
-float
-display
+</head>
 
-Colors Needed:
-Page Background: #3b0000
-Navigation Links: Light Grey
-Navigation Links Hover: White
-Header 1: #550000
-Header 2: #770000
-Links: #880000
-Links Hover: #CC0000;
-*/
+<body> <!-- contains repeating background for the entire site -->
+<div id="page_bg">  <!-- Houses the background image for swirls -->
 
-body {
-	font-family:Arial, Helvetica, sans-serif;
-	margin:0px
-	background-color:#3b0000
-}
-a {
-	text-decoration:none;
-}
-a:hover {
-}
-h1 {
-	color:rgb (#550000)
-}
-h2 {
-	color: rgb (#770000)
-}
-#page_bg {
-}
-#content_bg {
-}
-#main {
-	margin:0px auto;
-}
-
-#header {
-	height: 213px;
-}
-#nav {
-	height:42px;
-	padding:0px 25px 25px 250px;
-}
-
-#nav a {
-	padding:10px 20px;
-	display:block;
-	float:left;
-}
-
-#nav a:hover {
-}
-
-#page_content {
-	background-position:top center;
-	padding:1px 35px 35px 35px
-}
-
-#footer {
-	background-position:top center;
-	height:87px;
-
-}
-
-#footer a {
-}
-
-#footer_content {
-	width:900px;
-	text-align:right;
-	padding:0px 25px;
-	font-size:10px;
-}
+  <div id="content_bg">  <!-- contains the page drop shadow and repeating background for the page content -->
+  
+    <div id="main">  <!-- controls the margins and centers the page -->
+    
+      <div id="header"></div>
+      
+      <div id="nav">
+        <div align="left"><a href="#">Home</a><a href="#">About</a><a href="#">Students</a><a href="#">Syllabus</a></div>
+      </div>
+      
+      <div id="page_content">  <!-- houses the actualy content on each page, controls padding in page, etc. -->
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. <a href="#">Vivamus elementum</a> semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+        <h2>Heading 2</h2>
+        <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.background-image:url(images/footer.png) <a href="#">Nam quam nunc</a>, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footer_content">copyright &copy; 2012 | Design by<a href="http://www.ryanfreelance.com"> Ryan Harrell</a></div>
+  </div>
+</div>
+</body>
+</html>
